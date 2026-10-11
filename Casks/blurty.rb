@@ -4,7 +4,7 @@ cask "blurty" do
 
   url "https://get.blurty.app/Blurty-#{version}-mac.zip"
   name "Blurty"
-  desc "Dictation for Mac that talks to Claude Code, Cursor and any app"
+  desc "Dictation that talks to Claude Code, Cursor and any app"
   homepage "https://blurty.app/"
 
   livecheck do
@@ -15,7 +15,7 @@ cask "blurty" do
   end
 
   auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Blurty.app"
 
