@@ -1,6 +1,6 @@
 cask "blurty" do
-  version "0.4.0"
-  sha256 "340273e55de7aa5c763c1469a21d5f967abd38f86abec306390c4a2f5e69ece2"
+  version "0.4.1"
+  sha256 "1b6773daec2ae04a1bda0f11fd0f11eee4943a73221e20f4d8a284a2ba1b3a47"
 
   url "https://get.blurty.app/Blurty-#{version}-mac.zip"
   name "Blurty"
